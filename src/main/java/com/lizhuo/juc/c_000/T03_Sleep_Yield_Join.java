@@ -41,10 +41,10 @@ public class T03_Sleep_Yield_Join {
 
     static void testJoin() {
         Thread t1 = new Thread(()->{
-            for(int i=0; i<100; i++) {
-                System.out.println("A" + i);
+            for(int i=0; i<10; i++) {
+                System.out.println("t1 A" + i);
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(50);
                     //TimeUnit.Milliseconds.sleep(500)
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -60,10 +60,10 @@ public class T03_Sleep_Yield_Join {
                 e.printStackTrace();
             }
 
-            for(int i=0; i<100; i++) {
-                System.out.println("A" + i);
+            for(int i=0; i<10; i++) {
+                System.out.println("t2 A" + i);
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(50);
                     //TimeUnit.Milliseconds.sleep(500)
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -71,6 +71,7 @@ public class T03_Sleep_Yield_Join {
             }
         });
 
+        // start 顺序有关系 t2先start顺序会乱
         t1.start();
         t2.start();
     }
