@@ -1,14 +1,13 @@
 /**
- * ��N�Ż�Ʊ��ÿ��Ʊ����һ�����
- * ͬʱ��10�����ڶ�����Ʊ
- * ��дһ��ģ�����
- * 
- * ��������ĳ�����ܻ������Щ���⣿
- *  
- * ʹ��Vector����Collections.synchronizedXXX
- * ����һ�£������ܽ��������
- * 
- * @author ��ʿ��
+ * 有N张火车票，每张票都有一个编号
+ * 同时有10个窗口对外售票
+ * 请写一个模拟程序
+ *
+ * 分析下面的程序可能会产生哪些问题？
+ *
+ * 使用Vector或者Collections.synchronizedXXX
+ * 分析一下，这样能解决问题吗？
+ *
  */
 package com.lizhuo.juc.c_024_FromVectorToQueue;
 
@@ -20,7 +19,7 @@ public class TicketSeller2 {
 	
 	
 	static {
-		for(int i=0; i<1000; i++) tickets.add("Ʊ ��ţ�" + i);
+		for(int i=0; i<1000; i++) tickets.add("票 编号：" + i);
 	}
 	
 	public static void main(String[] args) {
@@ -36,7 +35,7 @@ public class TicketSeller2 {
 					}
 					
 					
-					System.out.println("������--" + tickets.remove(0));
+					System.out.println("销售了--" + tickets.remove(0));
 				}
 			}).start();
 		}
