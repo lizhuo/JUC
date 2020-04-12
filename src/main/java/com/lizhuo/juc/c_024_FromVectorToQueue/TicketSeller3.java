@@ -24,7 +24,7 @@ public class TicketSeller3 {
 	
 	
 	static {
-		for(int i=0; i<1000; i++) tickets.add("票 编号：" + i);
+		for(int i=0; i<1000; i++) tickets.add("ticket no:" + i);
 	}
 	
 	public static void main(String[] args) {
@@ -41,7 +41,7 @@ public class TicketSeller3 {
 							e.printStackTrace();
 						}
 						
-						System.out.println("销售了--" + tickets.remove(0));
+						System.out.println("sale -- " + tickets.remove(0));
 					}
 				}
 			}).start();

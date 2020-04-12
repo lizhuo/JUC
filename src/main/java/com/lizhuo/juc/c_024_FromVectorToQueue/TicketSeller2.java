@@ -19,13 +19,14 @@ public class TicketSeller2 {
 	
 	
 	static {
-		for(int i=0; i<1000; i++) tickets.add("票 编号：" + i);
+		for(int i=0; i<1000; i++) tickets.add("ticket no:" + i);
 	}
 	
 	public static void main(String[] args) {
 		
 		for(int i=0; i<10; i++) {
 			new Thread(()->{
+				// size() remove() 整体并非原子
 				while(tickets.size() > 0) {
 					
 					try {
@@ -35,7 +36,7 @@ public class TicketSeller2 {
 					}
 					
 					
-					System.out.println("销售了--" + tickets.remove(0));
+					System.out.println("sale--" + tickets.remove(0));
 				}
 			}).start();
 		}
