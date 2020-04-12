@@ -3,6 +3,9 @@ package com.lizhuo.juc.c_021_03_VarHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
 
+/**
+ * since jdk 1.9
+ */
 public class T01_HelloVarHandle {
 
     int x = 8;
@@ -27,10 +30,10 @@ public class T01_HelloVarHandle {
         handle.set(t,9);
         System.out.println(t.x);
 
-        handle.compareAndSet(t, 9, 10);
+        handle.compareAndSet(t, 9, 10); // 保证原子性
         System.out.println(t.x);
 
-        handle.getAndAdd(t, 10);
+        handle.getAndAdd(t, 10);  // 保证原子性
         System.out.println(t.x);
 
     }
