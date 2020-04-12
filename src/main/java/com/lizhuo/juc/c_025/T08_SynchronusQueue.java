@@ -15,7 +15,7 @@ public class T08_SynchronusQueue { //����Ϊ0
 			}
 		}).start();
 
-		strs.put("aaa"); //�����ȴ�����������
+		strs.put("aaa"); //阻塞等待消费者消费
 		//strs.put("bbb");
 		//strs.add("aaa");
 		System.out.println(strs.size());

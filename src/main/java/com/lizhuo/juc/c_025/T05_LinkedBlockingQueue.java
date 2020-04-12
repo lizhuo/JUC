@@ -15,7 +15,7 @@ public class T05_LinkedBlockingQueue {
 		new Thread(() -> {
 			for (int i = 0; i < 100; i++) {
 				try {
-					strs.put("a" + i); //������ˣ��ͻ�ȴ�
+					strs.put("a" + i); //如果满了，就会等待
 					TimeUnit.MILLISECONDS.sleep(r.nextInt(1000));
 				} catch (InterruptedException e) {
 					e.printStackTrace();
@@ -27,7 +27,7 @@ public class T05_LinkedBlockingQueue {
 			new Thread(() -> {
 				for (;;) {
 					try {
-						System.out.println(Thread.currentThread().getName() + " take -" + strs.take()); //������ˣ��ͻ�ȴ�
+						System.out.println(Thread.currentThread().getName() + " take -" + strs.take()); //如果空了，就会等待
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}

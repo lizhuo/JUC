@@ -1,11 +1,8 @@
 /**
- * дʱ�������� copy on write
- * ���̻߳����£�дʱЧ�ʵͣ���ʱЧ�ʸ�
- * �ʺ�д�ٶ���Ļ���
- * 
- * 
- * 
- * @author ��ʿ��
+ * 写时复制容器 copy on write
+ * 多线程环境下，写时效率低，读时效率高
+ * 适合写少读多的环境
+ *
  */
 package com.lizhuo.juc.c_025;
 
@@ -17,7 +14,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class T02_CopyOnWriteList {
 	public static void main(String[] args) {
 		List<String> lists = 
-				//new ArrayList<>(); //�������������⣡
+				//new ArrayList<>(); //这个会出并发问题！
 				//new Vector();
 				new CopyOnWriteArrayList<>();
 		Random r = new Random();
