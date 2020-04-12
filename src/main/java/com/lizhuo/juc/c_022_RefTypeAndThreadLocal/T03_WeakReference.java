@@ -16,7 +16,7 @@ public class T03_WeakReference {
 
 
         ThreadLocal<M> tl = new ThreadLocal<>();
-        tl.set(new M());
+        tl.set(new M()); // key: tl value: new M()
         tl.remove();
 
     }
