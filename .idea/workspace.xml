@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="537745d2-fdf3-45e3-91ce-55d43dfd9027" name="Default Changelist" comment="线程 join 顺序">
+    <list default="true" id="537745d2-fdf3-45e3-91ce-55d43dfd9027" name="Default Changelist" comment="file encoding">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_003/T.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_003/T.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_003/T1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_003/T1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_004/T.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_004/T.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_012_Volatile/T01_HelloVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_012_Volatile/T01_HelloVolatile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_01_ThreadPool/T03_Callable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_01_ThreadPool/T03_Callable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,95 +23,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_005/T.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_00_interview/A1B2C3/T01_00_Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_007/T.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_00_interview/A1B2C3/T03_00_cas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_008/Account.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_022_RefTypeAndThreadLocal/ThreadLocal1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state relative-caret-position="180">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_012_Volatile/T02_VolatileReference1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_022_RefTypeAndThreadLocal/T03_WeakReference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-139">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_012_Volatile/T03________VolatileReference2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_022_RefTypeAndThreadLocal/T02_SoftReference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_012_Volatile/T04_VolatileNotSync.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/思考题.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_012_Volatile/T05_VolatileVsSync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-116">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_016_LockOptimization/FineCoarseLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_01_ThreadPool/T03_Callable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="16" column="94" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
+            <state relative-caret-position="255">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_009/T.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/JustTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="45">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/Tets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -142,6 +132,9 @@
       <find>synchronizedMap</find>
       <find>synchronizedList</find>
       <find>Fork</find>
+      <find>weak</find>
+      <find>ticket</find>
+      <find>ThreadLocal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,18 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_025/T08_TransferQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_03_VarHandle/T01_HelloVarHandle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/ThreadLocal2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/T01_NormalReference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/T04_PhantomReference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_018_01_Unsafe/HelloUnsafe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_024_FromVectorToQueue/TicketSeller4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_025/T07_DelayQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_025/T05_LinkedBlockingQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_025/T06_ArrayBlockingQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_025/T07_01_PriorityQueque.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_025/T08_SynchronusQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_025/T09_TransferQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026/T02_ExecutorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026/T05_00_HelloThreadPool.java" />
@@ -200,7 +181,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_003/T1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_004/T.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_008/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_021_03_VarHandle/T01_HelloVarHandle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_021_01_interview/MyContainer1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_022_RefTypeAndThreadLocal/T03_WeakReference.java" />
         <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_024_FromVectorToQueue/TicketSeller1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_024_FromVectorToQueue/TicketSeller2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_024_FromVectorToQueue/TicketSeller3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_024_FromVectorToQueue/TicketSeller4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T02_CopyOnWriteList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T05_LinkedBlockingQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T06_ArrayBlockingQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T08_SynchronusQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_01_ThreadPool/T03_Callable.java" />
       </list>
     </option>
   </component>
@@ -225,10 +218,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1024" />
-    <option name="height" value="686" />
+    <option name="width" value="1262" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -236,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,11 +240,6 @@
             <path>
               <item name="juc" type="b2602c69:ProjectViewProjectNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,167 +291,12 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_003" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_004" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_005" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_006" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_007" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_008" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_009" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_010" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_012_Volatile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_016_LockOptimization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_018_00_AtomicXXX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="juc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lizhuo" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_021_02_AQS" type="462c0819:PsiDirectoryNode" />
+              <item name="c_026_01_ThreadPool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="NBKnowledgePane" />
     </panes>
@@ -471,6 +305,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -510,13 +346,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Account">
-    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lizhuo.juc.c_008.Account" />
+  <component name="RunManager" selected="Application.T02_SoftReference">
+    <configuration name="T02_SoftReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lizhuo.juc.c_022_RefTypeAndThreadLocal.T02_SoftReference" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lizhuo.juc.c_008.*" />
+          <option name="PATTERN" value="com.lizhuo.juc.c_022_RefTypeAndThreadLocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -524,12 +360,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lizhuo.juc.c_007.T" />
+    <configuration name="T04_TestConcurrentHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lizhuo.juc.c_023_02_FromHashtableToCHM.T04_TestConcurrentHashMap" />
       <module name="juc" />
+      <option name="VM_PARAMETERS" value="-Xmx20M" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lizhuo.juc.c_007.*" />
+          <option name="PATTERN" value="com.lizhuo.juc.c_023_02_FromHashtableToCHM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -537,12 +374,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lizhuo.juc.c_005.T" />
+    <configuration name="TicketSeller1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lizhuo.juc.c_024_FromVectorToQueue.TicketSeller1" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lizhuo.juc.c_005.*" />
+          <option name="PATTERN" value="com.lizhuo.juc.c_024_FromVectorToQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -550,12 +387,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T03_Sleep_Yield_Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lizhuo.juc.c_000.T03_Sleep_Yield_Join" />
+    <configuration name="TicketSeller3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lizhuo.juc.c_024_FromVectorToQueue.TicketSeller3" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lizhuo.juc.c_000.*" />
+          <option name="PATTERN" value="com.lizhuo.juc.c_024_FromVectorToQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -563,12 +400,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T04_ThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lizhuo.juc.c_000.T04_ThreadState" />
+    <configuration name="TicketSeller4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lizhuo.juc.c_024_FromVectorToQueue.TicketSeller4" />
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lizhuo.juc.c_000.*" />
+          <option name="PATTERN" value="com.lizhuo.juc.c_024_FromVectorToQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -577,19 +414,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T03_Sleep_Yield_Join" />
-      <item itemvalue="Application.T04_ThreadState" />
-      <item itemvalue="Application.T" />
-      <item itemvalue="Application.T (1)" />
-      <item itemvalue="Application.Account" />
+      <item itemvalue="Application.T04_TestConcurrentHashMap" />
+      <item itemvalue="Application.TicketSeller1" />
+      <item itemvalue="Application.TicketSeller3" />
+      <item itemvalue="Application.TicketSeller4" />
+      <item itemvalue="Application.T02_SoftReference" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Account" />
-        <item itemvalue="Application.T (1)" />
-        <item itemvalue="Application.T" />
-        <item itemvalue="Application.T04_ThreadState" />
-        <item itemvalue="Application.T03_Sleep_Yield_Join" />
+        <item itemvalue="Application.T02_SoftReference" />
+        <item itemvalue="Application.T04_TestConcurrentHashMap" />
+        <item itemvalue="Application.TicketSeller4" />
+        <item itemvalue="Application.TicketSeller3" />
+        <item itemvalue="Application.TicketSeller1" />
       </list>
     </recent_temporary>
   </component>
@@ -606,6 +443,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565232818446</updated>
+      <workItem from="1586699486838" duration="8170000" />
+      <workItem from="1587173967982" duration="20000" />
+      <workItem from="1587348484856" duration="210000" />
+      <workItem from="1588568472192" duration="415000" />
+      <workItem from="1588569406957" duration="801000" />
+      <workItem from="1589099250904" duration="3668000" />
+      <workItem from="1589535115155" duration="311000" />
+      <workItem from="1590983449596" duration="241000" />
+      <workItem from="1591013909027" duration="132000" />
+      <workItem from="1591098295643" duration="5676000" />
+      <workItem from="1593105602172" duration="15000" />
+      <workItem from="1593496866626" duration="385000" />
+      <workItem from="1593759849179" duration="799000" />
+      <workItem from="1594450471591" duration="567000" />
+      <workItem from="1594692093969" duration="533000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交演示代码">
       <created>1566616292953</created>
@@ -677,32 +529,86 @@
       <option name="project" value="LOCAL" />
       <updated>1586679292235</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="file encoding">
+      <created>1586680398948</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586680398948</updated>
+    </task>
+    <task id="LOCAL-00012" summary="VarHandle">
+      <created>1586686174070</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586686174070</updated>
+    </task>
+    <task id="LOCAL-00013" summary="file encoding">
+      <created>1586686357223</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586686357223</updated>
+    </task>
+    <task id="LOCAL-00014" summary="WeakReference">
+      <created>1586698632442</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586698632442</updated>
+    </task>
+    <task id="LOCAL-00015" summary="file encoding">
+      <created>1586701722654</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586701722654</updated>
+    </task>
+    <task id="LOCAL-00016" summary="vector to queue">
+      <created>1586703634002</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1586703634002</updated>
+    </task>
+    <task id="LOCAL-00017" summary="file encoding">
+      <created>1586704488730</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1586704488730</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4171000" />
+    <option name="totallyTimeSpent" value="35383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <frame x="0" y="23" width="1262" height="717" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.33379695" side_tool="true" weight="0.21834862" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7804054" visible="true" weight="0.23990306" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7804054" visible="true" weight="0.31065574" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50080776" side_tool="true" weight="0.3548896" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.2429022" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.24212034" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="4" visible="true" weight="0.2144" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32649842" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49919224" visible="true" weight="0.20977917" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49919224" weight="0.21774194" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.340694" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3303887" />
       <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.32935154" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" x="0" y="0" width="373" height="847" id="Documentation" order="0" sideWeight="0.50073856" side_tool="true" weight="0.26788992" />
       <window_info anchor="right" id="jclasslib" order="1" weight="0.36016262" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -712,6 +618,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="PlantUML" order="7" weight="0.44060388" />
       <window_info anchor="right" id="Structure" order="8" sideWeight="0.2195946" weight="0.20975609" />
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info anchor="right" id="Database" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" sideWeight="0.33379695" side_tool="true" weight="0.21834862" />
@@ -741,6 +651,59 @@
       <window_info anchor="right" id="Structure" order="8" sideWeight="0.2195946" visible="true" weight="0.20975609" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交演示代码" />
     <MESSAGE value="2019年9月8日的更新" />
@@ -751,6 +714,9 @@
     <MESSAGE value="2019年11月10日的更新" />
     <MESSAGE value="jdk11" />
     <MESSAGE value="线程 join 顺序" />
+    <MESSAGE value="VarHandle" />
+    <MESSAGE value="WeakReference" />
+    <MESSAGE value="vector to queue" />
     <MESSAGE value="file encoding" />
     <option name="LAST_COMMIT_MESSAGE" value="file encoding" />
   </component>
@@ -791,145 +757,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_00_interview/A1B2C3/T06_00_sync_wait_notify.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_00_interview/A1B2C3/T07_00_sync_wait_notify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_00_interview/A1B2C3/T08_00_lock_condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_00_interview/A1B2C3/T09_00_lock_condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_00_interview/A1B2C3/T10_00_PipedStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_00_interview/A1B2C3/T13_TransferQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_028_FalseSharing/T01_CacheLinePadding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_029_WriteCombining/WriteCombining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_028_FalseSharing/T02_CacheLinePadding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/Tets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/invoke/VarHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="439" column="22" selection-start-line="439" selection-start-column="22" selection-end-line="439" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
-            <caret line="21" selection-start-line="21" selection-end-line="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_021_03_VarHandle/T01_HelloVarHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="172">
+          <caret line="219" column="35" selection-start-line="219" selection-start-column="29" selection-end-line="219" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#8486#8487#0" expanded="true" />
+            <element signature="e#8523#8524#0" expanded="true" />
+            <element signature="e#8789#8790#0" expanded="true" />
+            <element signature="e#8858#8859#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="185" column="9" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_021_02_AQS/MLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_021_02_AQS/TestReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_021_02_AQS/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="39" />
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        <state relative-caret-position="173">
+          <caret line="266" column="20" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="20" />
           <folding>
             <element signature="e#6466#6467#0" expanded="true" />
             <element signature="e#6524#6525#0" expanded="true" />
@@ -939,18 +790,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/invoke/VarHandleGuards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="141" column="9" lean-forward="true" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="611" selection-start-line="611" selection-end-line="611" />
+        <state relative-caret-position="304">
+          <caret line="2330" column="26" selection-start-line="2330" selection-start-column="26" selection-end-line="2330" selection-end-column="26" />
           <folding>
+            <element signature="docComment;class#AbstractQueuedSynchronizer#0" />
             <element signature="e#24278#24279#0" expanded="true" />
             <element signature="e#24306#24307#0" expanded="true" />
             <element signature="e#42752#42753#0" expanded="true" />
@@ -959,49 +804,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_021_02_AQS/Sync.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        <state relative-caret-position="188">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_000/T02_HowToCreateThread.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="2552" column="45" lean-forward="true" selection-start-line="2552" selection-start-column="45" selection-end-line="2552" selection-end-column="45" />
+          <folding>
+            <element signature="e#101957#101958#0" expanded="true" />
+            <element signature="e#102004#102005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_023_02_FromHashtableToCHM/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_023_02_FromHashtableToCHM/T02_TestHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="1378" column="9" lean-forward="true" selection-start-line="1378" selection-start-column="9" selection-end-line="1378" selection-end-column="9" />
+        <state relative-caret-position="-400">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_000/T01_WhatIsThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_023_02_FromHashtableToCHM/T03_TestSynchronizedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="627" column="6" selection-start-line="627" selection-start-column="6" selection-end-line="627" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="333" column="28" selection-start-line="333" selection-start-column="28" selection-end-line="333" selection-end-column="28" />
+          <folding>
+            <element signature="e#12564#12565#0" expanded="true" />
+            <element signature="e#12599#12600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_024_FromVectorToQueue/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_024_FromVectorToQueue/TicketSeller2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_024_FromVectorToQueue/TicketSeller3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="38" column="56" lean-forward="true" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk-11.0.6.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="390" column="30" selection-start-line="390" selection-start-column="30" selection-end-line="390" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_023_02_FromHashtableToCHM/T04_TestConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T05_LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="115" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T06_ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T07_01_PriorityQueque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_000/T04_ThreadState.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T07_DelayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="-415">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_000/T03_Sleep_Yield_Join.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T08_SynchronusQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T09_TransferQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_024_FromVectorToQueue/TicketSeller4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
           <folding>
-            <element signature="method#testSleep#0;class#T03_Sleep_Yield_Join#0" />
-            <element signature="method#testYield#0;class#T03_Sleep_Yield_Join#0" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_023_02_FromHashtableToCHM/T01_TestHashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_012_Volatile/T02_VolatileReference1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_020_01_Interview/T06_LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_020_01_Interview/T03_NotifyHoldingLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1012,154 +1003,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_018_00_AtomicXXX/T01_AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_018_00_AtomicXXX/T02_AtomicVsSyncVsLongAdder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_021_02_AQS/TestReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_002/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_001/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-end-line="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_003/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-end-line="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_003/T1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-end-line="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_004/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_006/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_005/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_007/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_009/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_008/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding>
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_012_Volatile/T02_VolatileReference1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_012_Volatile/T03________VolatileReference2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="45">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_020_01_Interview/T01_WithoutVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_020_01_Interview/T02_WithVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_012_Volatile/T04_VolatileNotSync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
+        <state relative-caret-position="75">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_012_Volatile/T05_VolatileVsSync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_016_LockOptimization/FineCoarseLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_018_01_Unsafe/HelloUnsafe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_021_02_AQS/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_021_03_VarHandle/T01_HelloVarHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_024_FromVectorToQueue/TicketSeller1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T01_ConcurrentMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_025/T02_CopyOnWriteList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_00_interview/A1B2C3/T01_00_Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_00_interview/A1B2C3/T03_00_cas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_022_RefTypeAndThreadLocal/ThreadLocal1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_022_RefTypeAndThreadLocal/T03_WeakReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_022_RefTypeAndThreadLocal/T02_SoftReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/JustTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/Tets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/思考题.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="16" column="94" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
+        <state relative-caret-position="436">
+          <caret line="43" column="123" selection-start-line="43" selection-start-column="123" selection-end-line="43" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lizhuo/juc/c_026_01_ThreadPool/T03_Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>
