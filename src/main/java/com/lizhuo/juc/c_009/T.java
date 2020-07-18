@@ -1,6 +1,9 @@
 /**
- * һ��ͬ���������Ե�������һ��ͬ��������һ���߳��Ѿ�ӵ��ĳ������������ٴ������ʱ����Ȼ��õ��ö������.
- * Ҳ����˵synchronized��õ����ǿ������
+ * 一个同步方法可以调用另外一个同步方法，一个线程已经拥有某个对象的锁，再次申请的时候仍然会得到该对象的锁.
+ * 也就是说synchronized获得的锁是 {可重入的}
+ *
+ * eg. 子类调用父类 super c_010
+ *
  * @author lizhuo
  */
 package com.lizhuo.juc.c_009;
@@ -15,10 +18,12 @@ public class T {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		m2();
+
+		m2(); // 可重入
+
 		System.out.println("m1 end");
 	}
-	
+
 	synchronized void m2() {
 		try {
 			TimeUnit.SECONDS.sleep(2);
