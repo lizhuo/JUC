@@ -11,6 +11,7 @@ import java.util.concurrent.Executors;
 
 public class T02_ListenableFuture {
     public static void main(String[] args) {
+        // 装饰器
         ListeningExecutorService service =
                 MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(2));
         ListenableFuture<Integer> future = service.submit(new Callable<Integer>() {
@@ -20,6 +21,7 @@ public class T02_ListenableFuture {
             }
         });
 
+        // 观察者模式
         Futures.addCallback(future, new FutureCallback<Integer>() {
             @Override
             public void onSuccess(@Nullable Integer integer) {
