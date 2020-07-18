@@ -11,7 +11,7 @@ package com.lizhuo.juc.c_011;
 
 import java.util.concurrent.TimeUnit;
 
-public class T {
+public class T_Exception {
 	int count = 0;
 
 	synchronized void m() {
@@ -34,11 +34,11 @@ public class T {
 	}
 
 	public static void main(String[] args) {
-		T t = new T();
+		T_Exception t = new T_Exception();
 		Runnable r = new Runnable() {
 			@Override
 			public void run() {
-				t.m();
+				t.m(); // 普通类方法 --
 			}
 
 		};
