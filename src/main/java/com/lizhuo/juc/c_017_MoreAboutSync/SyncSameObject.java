@@ -23,8 +23,6 @@ public class SyncSameObject {
 					e.printStackTrace();
 				}
 				System.out.println(Thread.currentThread().getName());
-
-
 			}
 		}
 	}
@@ -45,8 +43,5 @@ public class SyncSameObject {
 		t.o = new Object(); // 锁对象发生改变，所以t2线程得以执行，如果注释掉这句话，线程2将永远得不到执行机会
 
 		t2.start();
-
 	}
-
-
 }
