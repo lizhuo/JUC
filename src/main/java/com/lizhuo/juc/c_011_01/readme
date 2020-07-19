@@ -23,6 +23,9 @@ AtomicInteger 和各种Lock都是用自旋锁
 执行时间短（加锁代码），线程数少，用自旋
 执行时间长，线程数多，用系统锁(用synchronized)
 
+Lock -- 使用自旋锁 CAS
+Synchronized -- 使用重量级锁 OS
+
 
 ----------------------------
 synchronized(Object o)

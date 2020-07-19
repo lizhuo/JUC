@@ -6,9 +6,6 @@
 
 package com.lizhuo.juc.c_005;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class T implements Runnable {
 
 
@@ -16,25 +13,25 @@ public class T implements Runnable {
 
 	public /*synchronized*/ void run() {
 		count--;
-		//Thread.yield();
+		Thread.yield();
 		System.out.println(Thread.currentThread().getName() + " count = " + count);
 	}
 
 	public static void main(String[] args) throws InterruptedException {
 		T t = new T();
-//		for (int i = 0; i < 100000; i++) {
-//			new Thread(t, "THREAD" + i).start();
-//		}
+		for (int i = 0; i < 10; i++) {
+			new Thread(t, "THREAD" + i).start();
+		}
 
-		List<Thread> threads = new ArrayList<>();
+		/*List<Thread> threads = new ArrayList<>();
 		for (int i = 0; i < 10; i++) {
 			threads.add(new Thread(t, "thread_" + i));
-			//threads.get(i).join();
 		}
 
 		for (Thread thread : threads) {
 			thread.start();
-		}
+			thread.join();
+		}*/
 
 		System.out.println("---- main thread: " + t.count);
 		//? ---- main thread: 1

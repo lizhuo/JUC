@@ -1,5 +1,6 @@
 /**
- * �Ա���һ�����򣬿�����synchronized�����synchronized���Ա�֤�ɼ��Ժ�ԭ���ԣ�volatileֻ�ܱ�֤�ɼ���
+ * 对比上一个程序，可以用synchronized解决，synchronized可以保证可见性和原子性，volatile只能保证可见性
+ *
  * @author lizhuo
  */
 package com.lizhuo.juc.c_012_Volatile;
@@ -11,7 +12,7 @@ import java.util.List;
 public class T05_VolatileVsSync {
 	/*volatile*/ int count = 0;
 
-	synchronized void m() { 
+	synchronized void m() {
 		for (int i = 0; i < 10000; i++)
 			count++;
 	}
@@ -22,7 +23,7 @@ public class T05_VolatileVsSync {
 		List<Thread> threads = new ArrayList<Thread>();
 
 		for (int i = 0; i < 10; i++) {
-			threads.add(new Thread(t::m, "thread-" + i));
+			threads.add(new Thread(t::m, "Thread - " + i));
 		}
 
 		threads.forEach((o) -> o.start());
