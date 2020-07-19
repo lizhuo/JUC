@@ -1,7 +1,14 @@
 /**
+ * Mac OS
  * Atomic: 100000000 time 2614
  * Sync: 100000000 time 3401
  * LongAdder: 100000000 time 1861
+ *
+ * fact: thread num; add times
+ *
+ * LongAdder: 并发特别高 -- 使用分段锁
+ * Atomic: CAS
+ * Sync: OS重量锁
  */
 package com.lizhuo.juc.c_018_00_AtomicXXX;
 
@@ -24,12 +31,9 @@ public class T02_AtomicVsSyncVsLongAdder {
 		}
 
 		long start = System.currentTimeMillis();
-
 		for (Thread t : threads) t.start();
 		for (Thread t : threads) t.join();
-
 		long end = System.currentTimeMillis();
-
 		//TimeUnit.SECONDS.sleep(10);
 		System.out.println("Atomic: " + count1.get() + " time " + (end - start));
 
@@ -49,11 +53,9 @@ public class T02_AtomicVsSyncVsLongAdder {
 		}
 
 		start = System.currentTimeMillis();
-
 		for (Thread t : threads) t.start();
 		for (Thread t : threads) t.join();
 		end = System.currentTimeMillis();
-
 		System.out.println("Sync: " + count2 + " time " + (end - start));
 
 
@@ -65,10 +67,8 @@ public class T02_AtomicVsSyncVsLongAdder {
 		}
 
 		start = System.currentTimeMillis();
-
 		for (Thread t : threads) t.start();
 		for (Thread t : threads) t.join();
-
 		end = System.currentTimeMillis();
 
 		//TimeUnit.SECONDS.sleep(10);

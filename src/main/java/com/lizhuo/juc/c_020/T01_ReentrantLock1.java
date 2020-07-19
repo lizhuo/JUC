@@ -1,7 +1,10 @@
 /**
- * reentrantlock�������synchronized
- * ����������m1����this,ֻ��m1ִ����ϵ�ʱ��,m2����ִ��
- * �����Ǹ�ϰsynchronized��ԭʼ������
+ * synchronized 可重入锁
+ * <p>
+ * ReentrantLock 用于替代 synchronized
+ * 本例中由于m1锁定this,只有m1执行完毕的时候,m2才能执行
+ * 这里是复习synchronized最原始的语义
+ *
  * @author lizhuo
  */
 package com.lizhuo.juc.c_020;
@@ -10,22 +13,21 @@ import java.util.concurrent.TimeUnit;
 
 public class T01_ReentrantLock1 {
 	synchronized void m1() {
-		for(int i=0; i<10; i++) {
+		for (int i = 0; i < 10; i++) {
 			try {
 				TimeUnit.SECONDS.sleep(1);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 			System.out.println(i);
-			if(i == 2) m2();
+			if (i == 2) m2(); // 锁重入
 		}
-		
 	}
-	
+
 	synchronized void m2() {
 		System.out.println("m2 ...");
 	}
-	
+
 	public static void main(String[] args) {
 		T01_ReentrantLock1 rl = new T01_ReentrantLock1();
 		new Thread(rl::m1).start();
