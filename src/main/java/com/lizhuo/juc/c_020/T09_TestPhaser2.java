@@ -26,8 +26,8 @@ public class T09_TestPhaser2 {
             new Thread(new Person("p" + i)).start();
         }
 
-        new Thread(new Person("����")).start();
-        new Thread(new Person("����")).start();
+        new Thread(new Person("新郎")).start();
+        new Thread(new Person("新娘")).start();
 
     }
 
@@ -39,19 +39,19 @@ public class T09_TestPhaser2 {
 
             switch (phase) {
                 case 0:
-                    System.out.println("�����˵����ˣ�" + registeredParties);
+                    System.out.println("所有人到齐了！" + registeredParties);
                     System.out.println();
                     return false;
                 case 1:
-                    System.out.println("�����˳����ˣ�" + registeredParties);
+                    System.out.println("所有人吃完了！" + registeredParties);
                     System.out.println();
                     return false;
                 case 2:
-                    System.out.println("�������뿪�ˣ�" + registeredParties);
+                    System.out.println("所有人离开了！" + registeredParties);
                     System.out.println();
                     return false;
                 case 3:
-                    System.out.println("����������������ﱧ����" + registeredParties);
+                    System.out.println("婚礼结束！新郎新娘抱抱！" + registeredParties);
                     return true;
                 default:
                     return true;
@@ -70,19 +70,19 @@ public class T09_TestPhaser2 {
         public void arrive() {
 
             milliSleep(r.nextInt(1000));
-            System.out.printf("%s �����ֳ���\n", name);
+            System.out.printf("%s 到达现场！\n", name);
             phaser.arriveAndAwaitAdvance();
         }
 
         public void eat() {
             milliSleep(r.nextInt(1000));
-            System.out.printf("%s ����!\n", name);
+            System.out.printf("%s 吃完!\n", name);
             phaser.arriveAndAwaitAdvance();
         }
 
         public void leave() {
             milliSleep(r.nextInt(1000));
-            System.out.printf("%s �뿪��\n", name);
+            System.out.printf("%s 离开！\n", name);
 
 
             phaser.arriveAndAwaitAdvance();
