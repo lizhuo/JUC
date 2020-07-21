@@ -4,6 +4,12 @@
  *
  * 实战高并发编程
  *
+ * 乐观锁 CAS
+ * 悲观锁 Synchronized
+ * 自旋锁 CAS
+ * 读写锁
+ * 分段锁 LongAdder
+ *
  */
 package com.lizhuo.juc.c_020;
 
