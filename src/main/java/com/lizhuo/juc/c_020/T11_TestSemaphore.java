@@ -21,7 +21,7 @@ public class T11_TestSemaphore {
 
 				System.out.println("T1 running...");
 				Thread.sleep(200);
-				System.out.println("T1 running...");
+				System.out.println("T1 running.....");
 
 			} catch (InterruptedException e) {
 				e.printStackTrace();
@@ -36,11 +36,12 @@ public class T11_TestSemaphore {
 
 				System.out.println("T2 running...");
 				Thread.sleep(200);
-				System.out.println("T2 running...");
+				System.out.println("T2 running.....");
 
-				s.release();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
+			} finally {
+				s.release();
 			}
 		}).start();
 	}

@@ -5,7 +5,8 @@ import java.util.List;
 import java.util.concurrent.Semaphore;
 
 public class T08_Semaphore {
-    // ���volatile��ʹt2�ܹ��õ�֪ͨ
+
+    //添加volatile，使t2能够得到通知
     volatile List lists = new ArrayList();
 
     public void add(Object o) {

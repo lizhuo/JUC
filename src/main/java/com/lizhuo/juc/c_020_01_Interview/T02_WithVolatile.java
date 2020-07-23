@@ -1,11 +1,15 @@
 /**
- * �����������⣺���Ա�����
- * ʵ��һ���������ṩ����������add��size
- * д�����̣߳��߳�1���10��Ԫ�ص������У��߳�2ʵ�ּ��Ԫ�صĸ�������������5��ʱ���߳�2������ʾ������
- * 
- * ��lists���volatile֮��t2�ܹ��ӵ�֪ͨ�����ǣ�t2�̵߳���ѭ�����˷�cpu�����������ѭ����
- * ���ң������if �� break֮�䱻����̴߳�ϣ��õ��Ľ��Ҳ����ȷ��
- * ����ô���أ�
+ * 曾经的面试题：（淘宝？）
+ * 实现一个容器，提供两个方法，add，size
+ * 写两个线程，线程1添加10个元素到容器中，线程2实现监控元素的个数，当个数到5个时，线程2给出提示并结束
+ * <p>
+ * 给 lists 添加 volatile 之后，t2能够接到通知，但是，t2线程的死循环很浪费cpu，如果不用死循环，
+ * 而且，如果在if 和 break之间被别的线程打断，得到的结果也不精确，
+ *
+ * -- volatile 尽量修饰简单类型 不要修饰对象
+ *
+ * 该怎么做呢？
+ *
  * @author lizhuo
  */
 package com.lizhuo.juc.c_020_01_Interview;
@@ -17,9 +21,9 @@ import java.util.List;
 
 public class T02_WithVolatile {
 
-	//���volatile��ʹt2�ܹ��õ�֪ͨ
+	// 添加volatile，使t2能够得到通知
 	//volatile List lists = new LinkedList();
-	volatile List lists = Collections.synchronizedList(new LinkedList<>());
+	volatile List lists = Collections.synchronizedList(new LinkedList<>()); // 同步容器
 
 	public void add(Object o) {
 		lists.add(o);
@@ -33,7 +37,7 @@ public class T02_WithVolatile {
 
 		T02_WithVolatile c = new T02_WithVolatile();
 		new Thread(() -> {
-			for(int i=0; i<10; i++) {
+			for (int i = 0; i < 10; i++) {
 				c.add(new Object());
 				System.out.println("add " + i);
 				
@@ -44,14 +48,14 @@ public class T02_WithVolatile {
 				}*/
 			}
 		}, "t1").start();
-		
+
 		new Thread(() -> {
-			while(true) {
-				if(c.size() == 5) {
+			while (true) {
+				if (c.size() == 5) {
 					break;
 				}
 			}
-			System.out.println("t2 ����");
+			System.out.println("t2 结束");
 		}, "t2").start();
 	}
 }

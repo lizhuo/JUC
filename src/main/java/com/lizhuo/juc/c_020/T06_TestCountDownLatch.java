@@ -25,7 +25,7 @@ public class T06_TestCountDownLatch {
 		}
 
 		try {
-			latch.await(); // 门栓 阻塞
+			latch.await(); // 门栓 阻塞 --- await
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
