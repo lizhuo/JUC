@@ -1,7 +1,7 @@
 /**
- * ThreadLocal�ֲ߳̾�����
- * 
- * @author ��ʿ��
+ * ThreadLocal
+ *
+ * @author lizhuo
  */
 package com.lizhuo.juc.c_022_RefTypeAndThreadLocal;
 
@@ -9,20 +9,20 @@ import java.util.concurrent.TimeUnit;
 
 public class ThreadLocal1 {
 	volatile static Person p = new Person();
-	
+
 	public static void main(String[] args) {
-				
-		new Thread(()->{
+
+		new Thread(() -> {
 			try {
 				TimeUnit.SECONDS.sleep(2);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			
-			System.out.println(p.name);
+
+			System.out.println(p.name); // 受到其他线程影响
 		}).start();
-		
-		new Thread(()->{
+
+		new Thread(() -> {
 			try {
 				TimeUnit.SECONDS.sleep(1);
 			} catch (InterruptedException e) {
