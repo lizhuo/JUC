@@ -1,93 +1,81 @@
+/**
+ * ConcurrentHashMap 优化了读 写入较慢
+ * <p>
+ * Performance:
+ * write cost: 2844
+ * 1000000
+ * read cost:4384
+ */
 package com.lizhuo.juc.c_023_02_FromHashtableToCHM;
 
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class T04_TestConcurrentHashMap {
+public class T04_TestConcurrentHashMap extends TestThreadBase {
 
-    static Map<UUID, UUID> m = new ConcurrentHashMap<>();
+	static Map<UUID, UUID> m = new ConcurrentHashMap<>();
 
-    static int count = Constants.COUNT;
-    static UUID[] keys = new UUID[count];
-    static UUID[] values = new UUID[count];
-    static final int THREAD_COUNT = Constants.THREAD_COUNT;
+	static int count = Constants.COUNT;
+	static UUID[] keys = new UUID[count];
+	static UUID[] values = new UUID[count];
+	static final int THREAD_COUNT = Constants.THREAD_COUNT;
 
-    static {
-        for (int i = 0; i < count; i++) {
-            keys[i] = UUID.randomUUID();
-            values[i] = UUID.randomUUID();
-        }
-    }
+	static {
+		for (int i = 0; i < count; i++) {
+			keys[i] = UUID.randomUUID();
+			values[i] = UUID.randomUUID();
+		}
+	}
 
-    static class MyThread extends Thread {
-        int start;
-        int gap = count/THREAD_COUNT;
+	static class MyThread extends Thread {
+		int start;
+		int gap = count / THREAD_COUNT;
 
-        public MyThread(int start) {
-            this.start = start;
-        }
+		public MyThread(int start) {
+			this.start = start;
+		}
 
-        @Override
-        public void run() {
-            for(int i=start; i<start+gap; i++) {
-                m.put(keys[i], values[i]);
-            }
-        }
-    }
+		@Override
+		public void run() {
+			for (int i = start; i < start + gap; i++) {
+				m.put(keys[i], values[i]);
+			}
+		}
+	}
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        long start = System.currentTimeMillis();
+		long start = System.currentTimeMillis();
 
-        Thread[] threads = new Thread[THREAD_COUNT];
+		Thread[] threads = new Thread[THREAD_COUNT];
 
-        for(int i=0; i<threads.length; i++) {
-            threads[i] =
-            new MyThread(i * (count/THREAD_COUNT));
-        }
+		for (int i = 0; i < threads.length; i++) {
+			threads[i] =
+					new MyThread(i * (count / THREAD_COUNT));
+		}
 
-        for(Thread t : threads) {
-            t.start();
-        }
+		startAndJoin(threads);
 
-        for(Thread t : threads) {
-            try {
-                t.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+		long end = System.currentTimeMillis();
+		System.out.println("write cost: " + (end - start));
 
-        long end = System.currentTimeMillis();
-        System.out.println(end - start);
+		System.out.println(m.size());
 
-        System.out.println(m.size());
+		//-----------------------------------
 
-        //-----------------------------------
+		start = System.currentTimeMillis();
+		for (int i = 0; i < threads.length; i++) {
+			threads[i] = new Thread(() -> {
+				for (int j = 0; j < 10000000; j++) {
+					m.get(keys[10]);
+				}
+			});
+		}
 
-        start = System.currentTimeMillis();
-        for (int i = 0; i < threads.length; i++) {
-            threads[i] = new Thread(()->{
-                for (int j = 0; j < 10000000; j++) {
-                    m.get(keys[10]);
-                }
-            });
-        }
+		startAndJoin(threads);
 
-        for(Thread t : threads) {
-            t.start();
-        }
-
-        for(Thread t : threads) {
-            try {
-                t.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-
-        end = System.currentTimeMillis();
-        System.out.println(end - start);
-    }
+		end = System.currentTimeMillis();
+		System.out.println("read cost:" + (end - start));
+	}
 }

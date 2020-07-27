@@ -1,9 +1,12 @@
+/**
+ * 线程不安全
+ */
 package com.lizhuo.juc.c_023_02_FromHashtableToCHM;
 
 import java.util.HashMap;
 import java.util.UUID;
 
-public class T02_TestHashMap {
+public class T02_TestHashMap extends TestThreadBase {
 
     static HashMap<UUID, UUID> m = new HashMap<>();
 
