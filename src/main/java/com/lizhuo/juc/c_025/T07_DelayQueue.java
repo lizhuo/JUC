@@ -1,3 +1,11 @@
+/**
+ * DelayQueue 延迟队列
+ * 按时间调度任务
+ *
+ * 底层实现使用 PriorityQueue
+ *
+ * @author lizhuo
+ */
 package com.lizhuo.juc.c_025;
 
 import java.util.Random;
