@@ -1,3 +1,16 @@
+/**
+ * BlockingQueue -- 用于线程池
+ * 主要体现在 Blocking
+ * <p>
+ * Add Method：
+ *  put/take (阻塞)
+ *
+ * <p>
+ * LinkedBlockingQueue
+ * <p>
+ * 底层阻塞原理：
+ * LockSupport.park unPark
+ */
 package com.lizhuo.juc.c_025;
 
 import java.util.Random;
@@ -15,7 +28,7 @@ public class T05_LinkedBlockingQueue {
 		new Thread(() -> {
 			for (int i = 0; i < 100; i++) {
 				try {
-					strs.put("a" + i); //如果满了，就会等待
+					strs.put("a" + i); //如果满了，就会阻塞等待
 					TimeUnit.MILLISECONDS.sleep(r.nextInt(1000));
 				} catch (InterruptedException e) {
 					e.printStackTrace();
@@ -25,7 +38,7 @@ public class T05_LinkedBlockingQueue {
 
 		for (int i = 0; i < 5; i++) {
 			new Thread(() -> {
-				for (;;) {
+				for (; ; ) {
 					try {
 						System.out.println(Thread.currentThread().getName() + " take -" + strs.take()); //如果空了，就会等待
 					} catch (InterruptedException e) {
