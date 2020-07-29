@@ -13,7 +13,7 @@ package com.lizhuo.juc.c_024_FromVectorToQueue;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TicketSeller1 {
+public class  TicketSeller1 {
 	static List<String> tickets = new ArrayList<>();
 
 	static {
